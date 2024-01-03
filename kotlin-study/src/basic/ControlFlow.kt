@@ -26,6 +26,10 @@ fun ControlFlowIf() {
 
     println(d)
 
+    // 삼항 연산자가 없음
+    // condition ? then : else
+    // if (a > b) a else b 표현
+
     val a = 1
     val b = 2
     println(if (a > b) a else b)
