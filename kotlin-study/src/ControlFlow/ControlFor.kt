@@ -13,6 +13,14 @@ fun practiceFor() {
     for (cake in cakes) {
         println("Yummy, it's a $cake cake!")
     }
+
+    for (index in cakes.indices) {
+        println("it's a ${cakes[index]}")
+    }
+
+    for ((index, value) in cakes.withIndex()) {
+        println("it's a $value with index($index)")
+    }
 }
 
 fun practiceWhileAndDoWhile() {
